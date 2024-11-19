@@ -28,6 +28,7 @@ public class SpellChecker
       */
       public boolean linearSpellCheck(String word)
       {
+          int count = 0;
           for(int i=0; i < dictionary.size(); i++) 
           {
             if (word.equals(dictionary.get(i))) {
