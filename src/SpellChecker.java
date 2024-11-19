@@ -33,11 +33,11 @@ public class SpellChecker
           {
             count++;
             if (word.equals(dictionary.get(i))) {
-                System.out.println("Words checked: " + count);
+                System.out.println("A search for the word " + word + " to " + count + " comparisons");
                 return true;
             }
           }
-          System.out.println("Words checked: " + count);
+          System.out.println("A search for the word " + word + " to " + count + " comparisons");
          return false;
 
       }
